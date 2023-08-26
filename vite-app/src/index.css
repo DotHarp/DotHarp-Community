@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: 'Dunkin';
+    src: url('./fonts/Dunkin.otf');
+}
+
+@font-face{
+    font-family: 'Dunkin-Sans';
+    src: url('./fonts/Dunkin Sans.otf');
+}
+
+@font-face{
+    font-family: 'Arthead';
+    src: url('./fonts/Arthead-Regular FREE.otf');
+}
+@media only screen and (min-width:1100px){
+.full-page{
+    padding: 2% 10%;
+    margin-top: -10px;
+}
+}
